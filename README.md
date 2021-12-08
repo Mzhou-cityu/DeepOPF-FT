@@ -1,2 +1,2 @@
 # DeepOPF-FT
-System configuration files for FeepOPF-FT
+System configuration files for DeepOPF-FT
