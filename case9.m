@@ -1,4 +1,4 @@
-function mpc = pglib_opf_case9_ieee
+function mpc = case9
 mpc.version = '2';
 mpc.baseMVA = 100.0;
 
