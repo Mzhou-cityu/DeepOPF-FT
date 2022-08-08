@@ -1,3 +1,5 @@
+% In the modified IEEE 9-bus system, we assume the lines between bus 3-6, 2-8, 1-4 
+% are perfect lines
 function mpc = case9
 mpc.version = '2';
 mpc.baseMVA = 100.0;
