@@ -1,5 +1,7 @@
 % In the modified IEEE 9-bus system, we assume the lines between bus 3-6, 2-8, 1-4 
-% are perfect lines
+% are perfect lines. Then, we merge the buses 3-6, 2-8, 1-4 together and renumber 
+% the buses. In this way, we can evaluate the perforance of DeepOPF-FT over all possible
+% topologies and with the same bus, generation, and line capacity configurations.
 function mpc = case9
 mpc.version = '2';
 mpc.baseMVA = 100.0;
